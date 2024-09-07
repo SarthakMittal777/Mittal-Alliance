@@ -1838,6 +1838,9 @@ body.royal_loader {
     top: 20%;
   }
 }
+#about{
+  overflow:hidden;
+}
 /* Home 1 About Company*/
 .about-h1 {
   padding-bottom: 0;
