@@ -1125,6 +1125,22 @@ img {
   max-width: 100%;
   height: auto;
 }
+.right-about-h1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-about {
+  width: 100% !important;
+  height: auto;
+}
+
+.demo-about-h1 {
+  min-height: 100vh;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
