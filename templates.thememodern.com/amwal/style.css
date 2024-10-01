@@ -12118,3 +12118,22 @@ small.time {
   }
 }
 /* Smallest Devices, Phones */
+.navbar-brand img {
+  height: 82px;
+  width: 82px;
+}
+
+@media (max-width: 768px) {
+  .navi-warp-home-1 {
+      height: auto;
+  }
+
+  .navbar-brand img {
+      height: 50px;
+      width: 50px;
+  }
+
+  .btn-menu-mobile {
+      font-size: 24px;
+  }
+}
