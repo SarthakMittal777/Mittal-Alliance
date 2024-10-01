@@ -162,7 +162,7 @@
 .lnr-store:before {
 	content: "\e82d";
 }
-.lnr-cart:before {
+.lnr-:before {
 	content: "\e82e";
 }
 .lnr-tag:before {

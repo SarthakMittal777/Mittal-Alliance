@@ -2,7 +2,7 @@ $(window).load(function(){
     "use strict";
 
     
-            var $container = $('.cases-warp');
+            var $container = $('.-warp');
             $container.isotope({
                 filter: '*',
 
@@ -14,8 +14,8 @@ $(window).load(function(){
                 }
             });
             
-            $('.casesFilter a').click(function(){
-                $('.casesFilter .current').removeClass('current');
+            $('.Filter a').click(function(){
+                $('.Filter .current').removeClass('current');
                 $(this).addClass('current');
          
                 var selector = $(this).attr('data-filter');

@@ -309,10 +309,10 @@
 .Woo-ProductInfo{color:rgba(0, 0, 0, 1.00);font-size:15px;line-height:15px;font-weight:500;font-style:normal;font-family:Roboto;padding:12px 75px 12px 50px;text-decoration:none;background-color:rgba(254, 207, 114, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px;text-align:left;type:button}
 .tp-caption.Woo-ProductInfo:hover,
 .Woo-ProductInfo:hover{color:rgba(0, 0, 0, 1.00);text-decoration:none;background-color:rgba(243, 168, 71, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px}
-.tp-caption.Woo-AddToCart,
-.Woo-AddToCart{color:rgba(0, 0, 0, 1.00);font-size:15px;line-height:15px;font-weight:500;font-style:normal;font-family:Roboto;padding:12px 35px 12px 35px;text-decoration:none;background-color:rgba(254, 207, 114, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px;text-align:left;type:button}
-.tp-caption.Woo-AddToCart:hover,
-.Woo-AddToCart:hover{color:rgba(0, 0, 0, 1.00);text-decoration:none;background-color:rgba(243, 168, 71, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px}
+.tp-caption.Woo-AddTo,
+.Woo-AddTo{color:rgba(0, 0, 0, 1.00);font-size:15px;line-height:15px;font-weight:500;font-style:normal;font-family:Roboto;padding:12px 35px 12px 35px;text-decoration:none;background-color:rgba(254, 207, 114, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px;text-align:left;type:button}
+.tp-caption.Woo-AddTo:hover,
+.Woo-AddTo:hover{color:rgba(0, 0, 0, 1.00);text-decoration:none;background-color:rgba(243, 168, 71, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px}
 .tp-caption.Woo-TitleLarge,
 .Woo-TitleLarge{color:rgba(0, 0, 0, 1.00);font-size:40px;line-height:40px;font-weight:400;font-style:normal;font-family:Playfair Display;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center;type:text}
 .tp-caption.Woo-SubTitle,
@@ -323,10 +323,10 @@
 .Woo-ProductInfo{color:rgba(0, 0, 0, 1.00);font-size:15px;line-height:15px;font-weight:500;font-style:normal;font-family:Roboto;padding:12px 75px 12px 50px;text-decoration:none;background-color:rgba(254, 207, 114, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px;text-align:left;type:button}
 .tp-caption.Woo-ProductInfo:hover,
 .Woo-ProductInfo:hover{color:rgba(0, 0, 0, 1.00);text-decoration:none;background-color:rgba(243, 168, 71, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px}
-.tp-caption.Woo-AddToCart,
-.Woo-AddToCart{color:rgba(0, 0, 0, 1.00);font-size:15px;line-height:15px;font-weight:500;font-style:normal;font-family:Roboto;padding:12px 35px 12px 35px;text-decoration:none;background-color:rgba(254, 207, 114, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px;text-align:left;type:button}
-.tp-caption.Woo-AddToCart:hover,
-.Woo-AddToCart:hover{color:rgba(0, 0, 0, 1.00);text-decoration:none;background-color:rgba(243, 168, 71, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px}
+.tp-caption.Woo-AddTo,
+.Woo-AddTo{color:rgba(0, 0, 0, 1.00);font-size:15px;line-height:15px;font-weight:500;font-style:normal;font-family:Roboto;padding:12px 35px 12px 35px;text-decoration:none;background-color:rgba(254, 207, 114, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px;text-align:left;type:button}
+.tp-caption.Woo-AddTo:hover,
+.Woo-AddTo:hover{color:rgba(0, 0, 0, 1.00);text-decoration:none;background-color:rgba(243, 168, 71, 1.00);border-color:rgba(0, 0, 0, 1.00);border-style:solid;border-width:1px;border-radius:4px 4px 4px 4px}
 .tp-caption.FullScreen-Toggle,
 .FullScreen-Toggle{color:rgba(255, 255, 255, 1.00);font-size:20px;line-height:20px;font-weight:400;font-style:normal;font-family:Raleway;padding:11px 8px 11px 12px;text-decoration:none;text-align:left;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(255, 255, 255, 0);border-style:solid;border-width:0px;border-radius:0px 0px 0px 0px;letter-spacing:3px;text-align:left}
 .tp-caption.FullScreen-Toggle:hover,

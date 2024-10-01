@@ -1,24 +1,48 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sun, 01 Sep 2024 17:08:40 at https://templates.thememodern.com/amwal/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://templates.thememodern.com/amwal/index.html -O1 "C:\Users\mitta\Downloads\Mittal Alliance" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-17:09:55	Error: 	"Forbidden" (403) at link https://templates.thememodern.com/amwal/switcher/colors/ (from https://templates.thememodern.com/amwal/index.html)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.eot (from https://templates.thememodern.com/amwal/css/bootstrap.css)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.eot? (from https://templates.thememodern.com/amwal/css/bootstrap.css)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.woff2 (from https://templates.thememodern.com/amwal/css/bootstrap.css)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.woff (from https://templates.thememodern.com/amwal/css/bootstrap.css)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.ttf (from https://templates.thememodern.com/amwal/css/bootstrap.css)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.svg (from https://templates.thememodern.com/amwal/css/bootstrap.css)
-17:11:07	Warning: 	File not parsed, looks like binary: https://templates.thememodern.com/amwal/revolution/css/openhand.cur
-17:11:07	Warning: 	File not parsed, looks like binary: https://templates.thememodern.com/amwal/revolution/css/closedhand.cur
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/images/loader.gif (from https://templates.thememodern.com/amwal/style.css)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/team_single.html (from https://templates.thememodern.com/amwal/team_2.html)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/shop-single.html (from https://templates.thememodern.com/amwal/shop.html)
-17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/shop_single.html (from https://templates.thememodern.com/amwal/cart.html)
-
-HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 27 seconds : 390 links scanned, 377 files written (55882196 bytes overall) [54611658 bytes received at 371507 bytes/sec], 1774186 bytes transferred using HTTP compression in 62 files, ratio 22%, 24.3 requests per connection
-(11 errors, 2 warnings, 0 messages)
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 01 Sep 2024 17:08:40 at https://templates.thememodern.com/amwal/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://templates.thememodern.com/amwal/index.html -O1 "C:\Users\mitta\Downloads\Mittal Alliance" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+17:09:55	Error: 	"Forbidden" (403) at link https://templates.thememodern.com/amwal/switcher/colors/ (from https://templates.thememodern.com/amwal/index.html)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.eot (from https://templates.thememodern.com/amwal/css/bootstrap.css)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/s/glyphicons-halflings-regular.eot? (from https://templates.thememodern.com/amwal/css/bootstrap.css)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.woff2 (from https://templates.thememodern.com/amwal/css/bootstrap.css)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.woff (from https://templates.thememodern.com/amwal/css/bootstrap.css)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.ttf (from https://templates.thememodern.com/amwal/css/bootstrap.css)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.svg (from https://templates.thememodern.com/amwal/css/bootstrap.css)
+
+17:11:07	Warning: 	File not parsed, looks like binary: https://templates.thememodern.com/amwal/revolution/css/openhand.cur
+
+17:11:07	Warning: 	File not parsed, looks like binary: https://templates.thememodern.com/amwal/revolution/css/closedhand.cur
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/images/loader.gif (from https://templates.thememodern.com/amwal/style.css)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/team_single.html (from https://templates.thememodern.com/amwal/team_2.html)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/shop-single.html (from https://templates.thememodern.com/amwal/shop.html)
+
+17:11:07	Error: 	"Not Found" (404) at link https://templates.thememodern.com/amwal/shop_single.html (from https://templates.thememodern.com/amwal/.html)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 27 seconds : 390 links scanned, 377 files written (55882196 bytes overall) [54611658 bytes received at 371507 bytes/sec], 1774186 bytes transferred using HTTP compression in 62 files, ratio 22%, 24.3 requests per connection
+
+(11 errors, 2 warnings, 0 messages)
+

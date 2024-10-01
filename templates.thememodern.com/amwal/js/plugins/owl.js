@@ -395,8 +395,8 @@
                 navigation:false,
             });
 
-         /* relate-cases */
-            $("#relate-cases").owlCarousel({
+         /* relate- */
+            $("#relate-").owlCarousel({
            
                 autoPlay: true, //Set AutoPlay to 3 seconds
                 items : 3,

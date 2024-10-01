@@ -3336,10 +3336,10 @@ body.royal_loader {
   background: #ffb600;
   color: #fff;
 }
-.cases-warp-h5 {
+.-warp-h5 {
   margin-top: 40px;
 }
-.cases-warp-h5 .element-item {
+.-warp-h5 .element-item {
   width: 25%;
   padding: 15px;
 }
@@ -3918,9 +3918,9 @@ body.royal_loader {
   display: none!important;
 }
 /* Home 9 */
-/* Cases */
+/*  */
 .bg-case-h9 {
-  background: url(images/bg-content/bg-cases-h9.png) no-repeat;
+  background: url(images/bg-content/bg--h9.png) no-repeat;
   background-attachment: fixed;
   background-position: top right;
 }
@@ -4103,7 +4103,7 @@ body.royal_loader {
 .about-warp-h10 .ot-btn {
   margin-right: 5px;
 }
-/* Cases */
+/*  */
 .project-h10-warp .col-md-6 {
   padding: 0;
 }
@@ -4408,20 +4408,20 @@ body.royal_loader {
   width: 100%;
   margin-bottom: 60px;
 }
-/* Cases Page  */
-.sh-cases {
+/*  Page  */
+.sh- {
   background: url(images/bg-content/bg-quote-h2.jpg) no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   background-attachment: fixed;
 }
-.cases-warp-page {
+.-warp-page {
   margin-top: 30px;
   clear: both;
   display: inline-block;
   width: 100%;
 }
-.cases-warp-page .element-item {
+.-warp-page .element-item {
   width: 33.3333%;
 }
 .category-case-warp-page {
@@ -5390,7 +5390,7 @@ ul.pagination li.active a {
 .form-review .rating-review span {
   margin-right: 10px;
 }
-/* Single Cases */
+/* Single  */
 .sh-case-single {
   background: url(images/bg-content/bg-quote-h2.jpg) no-repeat;
   -webkit-background-size: cover;
@@ -5452,18 +5452,18 @@ ul.pagination li.active a {
 .box-text-case {
   margin-top: 40px;
 }
-.owl-relate-cases .owl-item {
+.owl-relate- .owl-item {
   padding: 0 15px;
 }
-.owl-relate-cases {
+.owl-relate- {
   padding: 60px 0 0 0;
 }
-.relate-cases-warp {
+.relate--warp {
   display: inline-block;
   width: 100%;
   position: relative;
 }
-.relate-cases-warp .owl-controls {
+.relate--warp .owl-controls {
   height: 15px;
   position: absolute;
   top: -18px;
@@ -6029,7 +6029,7 @@ ul.pagination li.active a {
   width: 100%;
   margin-bottom: 160px;
 }
-/* Shop */
+/*  */
 .group-title-btn select.orderby {
   position: absolute;
   right: 0;
@@ -6104,29 +6104,29 @@ ul.pagination li.active a {
   -webkit-filter: contrast(100%);
           filter: contrast(100%);
 }
-/* Shop Cart */
-.table-cart td,
-.table-cart th {
+/*   */
+.table- td,
+.table- th {
   padding: 8px!important;
   vertical-align: middle!important;
 }
-.table-cart .product-name a {
+.table- .product-name a {
   color: #727272;
 }
-.table-cart .product-name a:hover {
+.table- .product-name a:hover {
   color: #ffb600;
 }
-.table-cart .product-name {
+.table- .product-name {
   text-align: left!important;
 }
-.table-cart .product-thumbnail {
+.table- .product-thumbnail {
   width: 70px;
   min-width: 70px;
 }
-.table-cart .product-remove a {
+.table- .product-remove a {
   color: #ffb600;
 }
-.table-cart .product-thumbnail img {
+.table- .product-thumbnail img {
   width: 70px!important;
 }
 .quantity input {
@@ -6168,10 +6168,10 @@ ul.pagination li.active a {
 .form-coupon input.form-control {
   margin: 0;
 }
-.table-cart-total {
+.table--total {
   font-size: 14px;
 }
-.table-cart-total th {
+.table--total th {
   background: #ffb600;
   font-weight: normal;
   text-align: left;
@@ -6180,7 +6180,7 @@ ul.pagination li.active a {
   line-height: 60px!important;
   width: 195px;
 }
-.table-cart-total td {
+.table--total td {
   line-height: 60px!important;
   padding: 0!important;
   padding-left: 30px!important;
@@ -6294,7 +6294,7 @@ ul.pagination li.active a {
 .tab-style-2 li.active a:hover {
   background: #ffb600;
 }
-/* Shop Sidebar */
+/*  Sidebar */
 /* widget search */
 .widget-search .widget-form {
   position: relative;
@@ -6977,11 +6977,11 @@ small.time {
   background: #ffb600;
   color: #fff;
 }
-.widget-cases-footer {
+.widget--footer {
   width: 100%;
   display: inline-block;
 }
-.widget-cases-footer img {
+.widget--footer img {
   display: inline-block;
   float: left;
   margin-right: 5px;
@@ -11158,8 +11158,8 @@ small.time {
     line-height: 100px;
     margin: 0;
   }
-  /* Filter Cases Home 5 */
-  .cases-warp-h5 .element-item {
+  /* Filter  Home 5 */
+  .-warp-h5 .element-item {
     width: 50%;
   }
   /* What can we do */
@@ -11269,7 +11269,7 @@ small.time {
     padding-bottom: 0;
   }
   /* Home 9 */
-  /* Cases */
+  /*  */
   .category-case-warp-h9 {
     position: static;
     display: inline-block;
@@ -11417,11 +11417,11 @@ small.time {
   .warp-inner-cms {
     display: block;
   }
-  /* Cart */
-  .table-cart-total {
+  /*  */
+  .table--total {
     margin-bottom: 60px;
   }
-  /* SIngle Shop */
+  /* SIngle  */
   .single-product-warp figure {
     margin-bottom: 30px;
   }
@@ -11569,8 +11569,8 @@ small.time {
     top: auto;
   }
   /* Home 5 */
-  /* Filter Cases Home 5 */
-  .cases-warp-h5 .element-item {
+  /* Filter  Home 5 */
+  .-warp-h5 .element-item {
     width: 100%;
   }
   /* Home 7 */
@@ -11772,26 +11772,26 @@ small.time {
   .warp-inner-cms .follow-text-cms::after {
     display: none;
   }
-  /* Shop */
+  /*  */
   .group-title-btn select.orderby {
     position: static;
     margin-top: 30px;
     display: inline-block;
     width: 100%;
   }
-  /* Cart */
-  .shop-cart-warp .group-btn {
+  /*  */
+  .--warp .group-btn {
     display: inline-block;
     width: 100%;
   }
-  .shop-cart-warp .form-coupon {
+  .--warp .form-coupon {
     width: 100%;
     display: inline-block;
   }
   .form-coupon .ot-btn {
     margin-top: 15px;
   }
-  /* Single Shop */
+  /* Single  */
   .widget-footer-social-1.social-detail-product {
     width: 100%;
     display: inline-block;
@@ -12050,10 +12050,10 @@ small.time {
   }
   /* Case */
   /* News */
-  .relate-cases-warp .owl-controls {
+  .relate--warp .owl-controls {
     position: static;
   }
-  .relate-cases-warp .owl-controls .owl-pagination {
+  .relate--warp .owl-controls .owl-pagination {
     text-align: center;
   }
   /* Team */
@@ -12100,7 +12100,7 @@ small.time {
   .sh-about,
   .sh-services,
   .sh-single-services,
-  .sh-cases,
+  .sh-,
   .sh-news,
   .sh-team,
   .sh-career,
