@@ -172,3 +172,4 @@ var Royal_Preloader = {
     }
 };
 $(document).ready(Royal_Preloader._init);
+
