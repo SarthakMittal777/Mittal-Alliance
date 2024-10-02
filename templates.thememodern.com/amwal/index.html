@@ -63,6 +63,11 @@
     <!-- Favicons
 			================================================== -->
     <link rel="shortcut icon" href="images/Mittal Alliance.png" />
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+
   </head>
   <body class="royal_loader">
     <!-- royal_loader -->
@@ -1135,32 +1140,37 @@
             <div class="callback-warp cb-h1">
               <div class="col-md-7">
                 <div class="form-cb-warp">
-                  <form class="cb-form">
+                  <form class="cb-form" id="contact-form">
                     <div class="form-group">
                       <input
                         type="text"
                         class="form-control"
                         id="name"
                         placeholder="Your Name*"
+                        required
                       />
                     </div>
-
-                    <select class="cb">
-                      <option value="">I would like to discuss</option>
-                      <option>Strategic Decision Making</option>
-                      <option>International Finance Resources</option>
-                      <option>Hedging & Risk Management</option>
-                      <option>International Capital Markets</option>
-                      <option>Foreign Exchange Markets</option>
-                      <option>International Finance & Global Markets</option>
-                      <option>International Finance Tutorial</option>
-                    </select>
-
+                  
+                    <div class="form-group">
+                      <select class="cb" id="discussion_topic" required>
+                        <option value="">I would like to discuss</option>
+                        <option>Strategic Decision Making</option>
+                        <option>International Finance Resources</option>
+                        <option>Hedging & Risk Management</option>
+                        <option>International Capital Markets</option>
+                        <option>Foreign Exchange Markets</option>
+                        <option>International Finance & Global Markets</option>
+                        <option>International Finance Tutorial</option>
+                      </select>
+                    </div>
+                  
                     <div class="form-group">
                       <input
                         type="email"
                         class="form-control"
+                        id="email"
                         placeholder="Your Email*"
+                        required
                       />
                     </div>
                     <div class="form-group">
@@ -1169,14 +1179,16 @@
                         class="form-control"
                         id="phone"
                         placeholder="Your Phone Number*"
+                        required
                       />
                     </div>
-
+                  
                     <button type="submit" class="btn-main-color">
                       <i class="fa fa-paper-plane" aria-hidden="true"></i>
                       Submit
                     </button>
                   </form>
+                  
                   <div
                     class="cb-info-h1"
                     style="
@@ -1193,7 +1205,7 @@
                     </p>
                     <p style="width: 100%">
                       <span class="icon icon-envelop"></span>
-                      <span>Sartak@worldplayventures.com</span>
+                      <span>Sarthak@worldplayventures.com</span>
                     </p>
                   </div>
                 </div>
@@ -1343,6 +1355,37 @@
 
     <!-- End Switcher -->
     <!-- SCRIPT -->
+    <script type="text/javascript">
+       document.addEventListener("DOMContentLoaded", 
+       (function(){
+      emailjs.init({
+        publicKey: "L33E4Y71oiTUO6lH-",
+      });
+   })()
+      );
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+    
+        // Collect form data
+        const templateParams = {
+          name: document.getElementById('name').value,
+          email: document.getElementById('email').value,
+          phone: document.getElementById('phone').value,
+          discussion_topic: document.getElementById('discussion_topic').value,
+          to_email: "mittalsarthak863@gmail.com"
+        };
+    
+        // Send email using EmailJS
+        emailjs.send('service_u5tje7b', 'template_j2o8cah', templateParams)
+          .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            alert('Email sent successfully!');
+          }, function(error) {
+            console.log('FAILED...', error);
+            alert('Failed to send email. Please try again later.');
+          });
+      });
+    </script>
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.js"></script>
     <script src="js/plugins/jquery.waypoints.min.js"></script>
@@ -1425,5 +1468,7 @@
     <!-- Demo Switcher
 	    ================================================== -->
     <script src="switcher/demo.js"></script>
+  
+    
   </body>
 </html>
