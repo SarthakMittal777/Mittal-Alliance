@@ -74,15 +74,32 @@ var Royal_Preloader = {
     },
     _build: function() {
         this._overlay = $("<div>").attr("id", "royal_preloader").addClass(this._mode);
-        this._overlay_bg =
-            $("<div>").addClass("background").appendTo(this._overlay).css("background-color", this._background[0]);
-        "number" === this._mode ? this._percentage = $("<div>").addClass("percentage").appendTo(this._overlay) : "text" === this._mode ? (this._text_loader = $("<div>").addClass("loader").text(this._text).appendTo(this._overlay), this._text_loader_overlay = $("<div>").css("background-color", this._background[0]).appendTo(this._text_loader)) : (this._logo_loader = $("<div>").css("background-image", 'url("' + this._logo + '")').addClass("loader").appendTo(this._overlay),
-            this._logo_loader_meter = $("<div>").css("background-color", this._background[0]).appendTo(this._logo_loader), this._percentage = $("<div>").css("background-color", this._background[0]).addClass("percentage").appendTo(this._overlay), this._show_percentage || this._percentage.hide());
-        1 !== this._opacity && (this._overlay_bg.css("opacity", this._opacity), $(document.body).css("visibility", "visible"));
+        this._overlay_bg = $("<div>").addClass("background").appendTo(this._overlay).css("background-color", this._background[0]);
+        
+        if ("number" === this._mode) {
+            this._percentage = $("<div>").addClass("percentage").appendTo(this._overlay).css("margin-top", "2.5rem").css("border-bottom", "1px solid white"); // Add margin-top here
+        } else if ("text" === this._mode) {
+            this._text_loader = $("<div>").addClass("loader").text(this._text).appendTo(this._overlay);
+            this._text_loader_overlay = $("<div>").css("background-color", this._background[0]).appendTo(this._text_loader);
+        } else {
+            this._logo_loader = $("<div>").css("background-image", 'url("' + this._logo + '")').addClass("loader").appendTo(this._overlay);
+            this._logo_loader_meter = $("<div>").css("background-color", this._background[0]).appendTo(this._logo_loader);
+            this._percentage = $("<div>").css("background-color", this._background[0]).addClass("percentage").appendTo(this._overlay).css("margin-top", "2.5rem").css("border-bottom", "1px solid white"); // Add margin-top here
+            if (!this._show_percentage) this._percentage.hide();
+        }
+        
+        if (1 !== this._opacity) {
+            this._overlay_bg.css("opacity", this._opacity);
+            $(document.body).css("visibility", "visible");
+        }
+    
         this._overlay.appendTo($(document.body));
-        "text" === this._mode && this._text_loader.css("margin-left", this._text_loader.width() /
-            2 * -1)
+        
+        if ("text" === this._mode) {
+            this._text_loader.css("margin-left", this._text_loader.width() / 2 * -1);
+        }
     },
+    
     _load: function() {
         if ("number" === this._mode || "logo" === this._mode) this._percentage.data("num", 0), this._show_percentage && this._percentage.text("0%");
         $.each(this._images, function(a, b) {

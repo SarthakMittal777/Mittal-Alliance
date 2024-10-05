@@ -1125,6 +1125,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+#img-res{
+  width:100% !important;
+}
 .right-about-h1 {
   height: 100%;
   display: flex;

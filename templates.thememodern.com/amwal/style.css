@@ -7412,7 +7412,7 @@ small.time {
   text-align: center;
   font-size: 31px;
 }
-.custom.tparrows.tp-leftarrow {
+/* .custom.tparrows.tp-leftarrow {
   background: #fff;
   color: #0a2c4e;
 }
@@ -7450,7 +7450,7 @@ small.time {
   top: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-}
+} */
 .custom.tparrows.tp-rightarrow i {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
